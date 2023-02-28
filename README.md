@@ -1,6 +1,6 @@
 # MobileApplicationsDevelopment
 Materials to the course "Mobile Applications Development"
 
-**@Lenmar Abdurayimov**  
+**@Alexander NetceplyaevI-1-20**  
 **2023**
 
