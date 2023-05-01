@@ -11,7 +11,20 @@ import com.company.buildings.ui.OutputInterface;
  * constructor, as per https://en.wikipedia.org/wiki/Utility_class.
  */
 public final class Neighborhood {
-
-    // TODO - Put your code here.
-    
+    public Neighborhood() {
+    }
+    public static void print(Building[] buildings, String header, OutputInterface out){
+        out.println(header);
+        out.println("------");
+        for (Building building: buildings) {
+            out.print(building.toString());
+        }
+    }
+    public static int calcArea(Building[] buildings){
+        int all = 0;
+        for (Building building:buildings) {
+            all += building.calcLotArea();
+        }
+        return all;
+    }
 }
